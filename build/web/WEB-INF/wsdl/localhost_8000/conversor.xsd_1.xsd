@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.6-1b01  svn-revision#13094. --><xs:schema xmlns:tns="http://wsaula/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://wsaula/">
+
+<xs:element name="dolarParaReal" type="tns:dolarParaReal"/>
+
+<xs:element name="dolarParaRealResponse" type="tns:dolarParaRealResponse"/>
+
+<xs:element name="euroParaReal" type="tns:euroParaReal"/>
+
+<xs:element name="euroParaRealResponse" type="tns:euroParaRealResponse"/>
+
+<xs:element name="librasParaReal" type="tns:librasParaReal"/>
+
+<xs:element name="librasParaRealResponse" type="tns:librasParaRealResponse"/>
+
+<xs:element name="realParaEuro" type="tns:realParaEuro"/>
+
+<xs:element name="realParaEuroResponse" type="tns:realParaEuroResponse"/>
+
+<xs:element name="realParaLibras" type="tns:realParaLibras"/>
+
+<xs:element name="realParaLibrasResponse" type="tns:realParaLibrasResponse"/>
+
+<xs:element name="realToDolar" type="tns:realToDolar"/>
+
+<xs:element name="realToDolarResponse" type="tns:realToDolarResponse"/>
+
+<xs:complexType name="realParaLibras">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="realParaLibrasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="librasParaReal">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="librasParaRealResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroParaReal">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="euroParaRealResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="realParaEuro">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="realParaEuroResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dolarParaReal">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dolarParaRealResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="realToDolar">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="realToDolarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
